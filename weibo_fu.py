@@ -75,7 +75,7 @@ print(Counter(con_words).most_common(15))
 # join the seperated words with spaces
 new_text = ' '.join(con_words)
 # define path for the font to be use in the wordcloud
-font_path_mac = '/Users/bojanfu/PycharmProjects/test1/STHeiti_Medium.ttc'
+font_path_mac = '/Users/.../STHeiti_Medium.ttc'
 wordcloud_weibo = WordCloud(font_path=font_path_mac, width=1400, height=1000, margin=2).generate(new_text)
 plt.imshow(wordcloud_weibo)
 plt.axis('off')
