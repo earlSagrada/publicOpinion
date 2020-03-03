@@ -9,6 +9,7 @@ from collections import Counter
 # search keywords in weibo
 search_kw = '伊朗'
 # transfer the keywords into url code
+# Replace special characters in string using the %xx escape
 kw_inurl = urllib.parse.quote(urllib.parse.quote(search_kw))
 
 # complete the url address for searching
